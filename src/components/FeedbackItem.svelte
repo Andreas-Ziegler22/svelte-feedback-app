@@ -28,4 +28,13 @@
     text-align: center;
     font-size: 19px;
   }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
 </style>
