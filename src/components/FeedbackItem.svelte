@@ -4,5 +4,11 @@
 </script>
 
 <Card>
-Hi....
+<div class="num-display">
+  {item.rating}
+</div>
+<div class="close">x</div>
+<p class="text-display">
+  {item.text}
+</p>
 </Card>
