@@ -20,7 +20,7 @@ import FeedbackList from './components/FeedbackList.svelte'
 	]
 </script>
 
-<main>
+<main class="container">
 	<FeedbackList {feedback}/>
 	
 </main>
