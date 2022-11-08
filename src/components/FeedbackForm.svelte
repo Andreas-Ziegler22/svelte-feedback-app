@@ -4,6 +4,17 @@
 
   let text = ''
   let btnDesabled = true
+  let min = 10
+  let message
+
+  const handleInput =()=>{
+    if(text.trim().length <= min){message = `Text must be at least ${min} characters`
+    btnDesabled = true
+  }else{
+    message = null
+    btnDesabled = false
+  }
+  }
 </script>
 
 <Card>
@@ -14,8 +25,13 @@
 <form>
   <!-- Rating Select -->
   <div class="input-group">
-    <input type="text" bind:value={text} placeholder="Tell us something that keeps you coming back">
+    <input type="text" on:input={handleInput}  bind:value={text} placeholder="Tell us something that keeps you coming back">
     <Button disabled={btnDesabled} type="submit">Send</Button>
+  </div>
+  <div class="message">
+    {#if message}
+      <div class="message">{message}</div>
+    {/if}
   </div>
 </form>
 </Card>
