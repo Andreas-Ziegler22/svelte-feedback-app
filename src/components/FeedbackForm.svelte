@@ -2,6 +2,10 @@
   
 </script>
 
+<header>
+  <h2>How would you rate our service with us?</h2>
+</header>
+
 <form>
   <!-- Rating Select -->
   <div class="input-group">
