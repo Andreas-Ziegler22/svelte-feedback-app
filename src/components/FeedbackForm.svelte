@@ -3,6 +3,7 @@
   import Button from "./Button.svelte";
 
   let text = ''
+  let rating = 10
   let btnDesabled = true
   let min = 10
   let message
