@@ -29,10 +29,13 @@
     {const newFeedback ={
       id: uuidv4(),
       text, 
-      rating: +rating}
+      rating: +rating
+      }
       dispatch('add-feedback', newFeedback)
-      }
-      }
+
+      text = ''
+    }
+  }
 </script>
 
 <Card>
