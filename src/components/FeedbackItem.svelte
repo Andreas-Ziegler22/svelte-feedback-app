@@ -28,8 +28,8 @@
     left: -10px;
     width: 50px;
     height: 50px;
-    background: #ff6a95;
-    color: #fff;
+    background: #fdea28;
+    color: #000;
     border: 1px #eee solid;
     border-radius: 50%;
     padding: 10px;

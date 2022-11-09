@@ -21,11 +21,11 @@
   }
 
   .primary {
-    background-color: #202142;
+    background-color: #207dbc;
   }
 
   .secondary {
-    background: #ff6a95;
+    background: #fdea28;
   }
 
   button:hover {
